@@ -1,5 +1,5 @@
 body{
-    background-color: #faf4f4;
+    background-color: #f2f2f2;
 }
 
 #Head1{
@@ -21,32 +21,35 @@ padding-right: 20px;
 }
 
 
-/*/Products Div
+/*/product Div
 making cart item container//
 */
 
-#Products{
+#Product{
     display: flex;
     margin-left: 150px;
-    border: 2px solid grey;
+    /* border: 2px solid grey; */
     border-radius: 15px;
-        background-color: #ffffff;
+        background-color: #f8f8f8;
     font-family: 'Roboto', sans-serif;
 color: #404040;
- height: 200px;
+ height: 220px;
  width: 80%;
 margin-top: 10px;
 }
 
 #Prod_img{
-    width: 90%;
+    height: 200px;
+    width: 200px;
     border-radius: 10px;
         /* border: 2px solid red; */
     image-rendering: pixelated;
 }
-/* #Prod_disc,#Prod_Title{
-    border: 2px solid green;
-} */
+#Prod_Title,#amount{
+    /* border: 2px solid red; */
+    color: #404040;
+    font-size: 22px;
+}
 
 #Prod_Head{
     /* border: 2px solid green;     */
@@ -67,6 +70,7 @@ margin-top: 10px;
     border: none;
     padding: 0;
     margin: 0;
+    background-color: #f8f8f8;
 
 
 
@@ -85,14 +89,17 @@ margin-top: 10px;
 
 
 #Second-Div{
-    border: 2px solid red;
+    /* border: 2px solid red; */
+    padding-left: 40px;
+ 
     width: 100%;
     
         /* font-family: 'Roboto', sans-serif; */
 }
 #Prod_disc{
     /* border: 2px solid yellow; */
-
+    font-size: 20px;
+    margin-top: -30px;
     display: flex;
     align-items: center;
     justify-items: center;
@@ -123,6 +130,19 @@ margin-top: 10px;
     margin-top: 1px;
 }
 
-#main,#product  {
+#next{
     display: flex;
+    margin-left: 500px;
+    font-family: roboto;
+    justify-content: space-around;
+}
+
+body{
+    width: 90%;
+}
+
+#next-button{
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    cursor: pointer;
 }
