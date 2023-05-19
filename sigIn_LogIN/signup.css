@@ -1,0 +1,33 @@
+.signupPage{
+    display: flex;
+    flex-direction: column;
+}
+.signCont{
+    width: 50%;
+    margin: 0 auto;
+}
+.signCont>form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.signCont>form input{
+    width: 50%;
+    padding: 15px 25px;
+}
+.signBtn{
+    padding: 10px 20px;
+    border: none;
+    background-color: yellowgreen;
+    border-radius: 5px;
+    margin-left: 15px
+}
+.createBtn{
+    border-radius: 5px;
+    background-color: yellowgreen;
+    border: none;
+    padding: 10px 25px;
+}
+.termsCondition{
+    width: 56.75%;
+}
