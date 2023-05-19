@@ -130,19 +130,39 @@ margin-top: 10px;
     margin-top: 1px;
 }
 
-#next{
-    display: flex;
-    margin-left: 500px;
-    font-family: roboto;
-    justify-content: space-around;
-}
+
 
 body{
     width: 90%;
 }
 
-#next-button{
+
+
+#scroll{
+    border: none;
+    width: 80%;
+    margin-top: -10px;
+    margin-left: 200px;
+    height: 2px;
+    /* background-color: #000; */
+    background: linear-gradient(to left, #ff8d18, #f2f2f2);
+   
+  }
+
+  #next-button{
     font-family: 'Roboto', sans-serif;
     border: none;
     cursor: pointer;
-}
+    /* border: 2px solid red; */
+    margin-top: 28px;
+    height: 30px;
+  }
+  
+  #next{
+   
+    font-size:20px;
+    display: flex;
+    margin-left: 500px;
+    font-family: roboto;
+    justify-content: space-around;
+  }
