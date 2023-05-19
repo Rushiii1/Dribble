@@ -161,7 +161,7 @@ var  obj=[
 // }
 
 
-display(obj);
+// display(obj);
 
 
 
@@ -171,12 +171,19 @@ if (targetElement) {
   // Your code to append elements goes here
 
 
-display(obj);
+// display(obj);
 
 
 } else {
   console.error("Target element not found.");
 }
 
+document.getElementById("next-button").addEventListener("click",next);
+
+
+
+function next(){
+  window.location.href="Information.html"
+}
 
 

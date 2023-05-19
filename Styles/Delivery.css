@@ -4,6 +4,10 @@
     
 }
 
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
 #Head{
     margin-left: 300px ;
     font-family: 'Roboto', sans-serif;
