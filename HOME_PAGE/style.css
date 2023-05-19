@@ -141,3 +141,39 @@ input{
 .p-size{
     font-size: 16px;
 }
+
+#parent-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    width: 95%;
+    margin: auto;
+}
+#parent-img img{
+    width: 100%;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+/* Dinging cart section  */
+
+#parent-dining{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    width: 95%;
+    margin: auto;
+   
+}
+#parent-dining img{
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    
+    
+}
+#parent-dining p{
+    font-size: 20px;
+    padding: 10px;
+}
